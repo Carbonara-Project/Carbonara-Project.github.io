@@ -2,4 +2,4 @@
 Go to [carbonara-project.github.io](https://carbonara-project.github.io/)
 
 ## Test 
-You can test an alpha version of the application at https://carbonara-backend.herokuapp.com/
+You can test an alpha version of the application at http://carbonara-backend.herokuapp.com/
