@@ -15,3 +15,11 @@
 | -- | -- | -- | -- |
 | Guanciale (IDA Pro info extraction) | ~ N hours | - | - |
 | IDA Pro plugin | ~ N hours | - | - |
+
+#### Luca Ferrera
+
+| Role | Milestone 1 | Milestone 2 | Final Milestone |
+| -- | -- | -- | -- |
+| DB's creation| ~ 6 hours | - | - |
+| User's profile | ~ 7 hours | - | - |
+| Endpoints & API| ~ 15 hours | - | - |
