@@ -35,3 +35,11 @@
 | Frontend-Backend interfacing | ~ 50 hours | - | - |
 | Main API | ~ 40 hours | - | - |
 | DB creation | ~ 20 hours | - | - |
+
+#### Daniele Cappuccio
+| Role | Milestone 1 | Milestone 2 | Final Milestone |
+| -- | -- | -- | -- |
+| Frontend logic and main pages | ~ 60 hours | - | - |
+| Responsive and mobile-friendly design | ~ 15 hours | - | - |
+| Landing page design | ~ 15 hours | - | - |
+| Proprietary format | ~ 3 hours | - | - |
