@@ -1,7 +1,7 @@
 
 ## Time spent by each team member
 
-+ Andrea Fioraldi
+#### Andrea Fioraldi
 
 | Role | Milestone 1 | Milestone 2 | Final Milestone |
 | -- | -- | -- | -- |
@@ -9,7 +9,7 @@
 | Backend (matching system) |  ~ 120 hours | - | - |
 | Radare2 plugin |  ~ 10 hours | - | - |
 
-+ Luigi Paolo Pileggi
+#### Luigi Paolo Pileggi
 
 | Role | Milestone 1 | Milestone 2 | Final Milestone |
 | -- | -- | -- | -- |
