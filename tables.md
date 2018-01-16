@@ -21,8 +21,8 @@
 | Role | Milestone 1 | Milestone 2 | Final Milestone |
 | -- | -- | -- | -- |
 | DB's creation| ~ 6 hours | - | - |
-| User's profile | ~ 7 hours | - | - |
-| Endpoints & API| ~ 15 hours | - | - |
+| Users API | ~ 7 hours | - | - |
+| Main API | ~ 15 hours | - | - |
 
 
 #### Andrea Tulimiero
@@ -31,5 +31,5 @@
 | -- | -- | -- | -- |
 | Frontend logic and main pages | ~ 60 hours | - | - |
 | Frontend-Backend interfacing | ~ 50 hours | - | - |
-| Endpoints & API | ~ 40 hours | - | - |
+| Main API | ~ 40 hours | - | - |
 | DB creation | ~20 hours | - | - |
