@@ -3,6 +3,7 @@
 | Member        | Role
 | -- | -- 
 | Andrea Fioraldi | <ul><li>Guanciale (matching system)</li><li>Backend (matching system)</li><li>Radare2 plugin</li></ul>
+| Luigi Paolo Pileggi | <ul><li>Guanciale (IDA Pro info extraction)</li><li>IDA Pro plugin</li></ul>
 
 
 
