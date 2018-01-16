@@ -20,9 +20,11 @@
 
 | Role | Milestone 1 | Milestone 2 | Final Milestone |
 | -- | -- | -- | -- |
-| DB's creation| ~ 6 hours | - | - |
-| Users API | ~ 7 hours | - | - |
-| Main API | ~ 15 hours | - | - |
+| DB creation| ~ 20 hours | - | - |
+| Users API | ~ 20 hours | - | - |
+| Main API | ~ 25 hours | - | - |
+| API documentation | ~ 3 hours| - | - |
+| Authentication logic | ~ 15 hours| - | - |
 
 
 #### Andrea Tulimiero
