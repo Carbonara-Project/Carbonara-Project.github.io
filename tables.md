@@ -37,6 +37,7 @@
 | DB creation | ~ 20 hours | - | - |
 
 #### Daniele Cappuccio
+
 | Role | Milestone 1 | Milestone 2 | Final Milestone |
 | -- | -- | -- | -- |
 | Frontend logic and main pages | ~ 60 hours | - | - |
@@ -45,6 +46,7 @@
 | Low overhead data format | ~ 3 hours | - | - |
 
 #### Daniele Paliotta
+
 | Role | Milestone 1 | Milestone 2 | Final Milestone |
 | -- | -- | -- | -- |
 | Model study and validation, study of framework | ~ 35 hours | - | - |
