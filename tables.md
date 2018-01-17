@@ -43,3 +43,10 @@
 | Responsive and mobile-friendly design | ~ 15 hours | - | - |
 | Landing page design | ~ 15 hours | - | - |
 | Proprietary format | ~ 3 hours | - | - |
+
+#### Daniele Paliotta
+| Role | Milestone 1 | Milestone 2 | Final Milestone |
+| -- | -- | -- | -- |
+| Model study and validation | ~ 40 hours | - | - |
+| Server infrastructure | ~ 15 hours | - | - |
+| Basic model implementation with dummy data | ~ 20 hours | - | - |
