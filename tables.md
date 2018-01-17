@@ -13,8 +13,8 @@
 
 | Role | Milestone 1 | Milestone 2 | Final Milestone |
 | -- | -- | -- | -- |
-| Guanciale (IDA Pro info extraction) | ~ N hours | - | - |
-| IDA Pro plugin | ~ N hours | - | - |
+| Guanciale (IDA Pro info extraction) | ~ 90 hours | - | - |
+| IDA Pro plugin | ~ 5 hours | - | - |
 
 #### Luca Ferrera
 
