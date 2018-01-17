@@ -26,7 +26,6 @@
 | API documentation | ~ 3 hours| - | - |
 | Authentication logic | ~ 15 hours| - | - |
 
-
 #### Andrea Tulimiero
 
 | Role | Milestone 1 | Milestone 2 | Final Milestone |
@@ -52,3 +51,5 @@
 | Model study and validation, study of framework | ~ 35 hours | - | - |
 | Server infrastructure | ~ 15 hours | - | - |
 | Basic model implementation with dummy data | ~ 20 hours | - | - |
+
+
