@@ -47,6 +47,6 @@
 #### Daniele Paliotta
 | Role | Milestone 1 | Milestone 2 | Final Milestone |
 | -- | -- | -- | -- |
-| Model study and validation | ~ 40 hours | - | - |
+| Model study and validation, study of framework | ~ 35 hours | - | - |
 | Server infrastructure | ~ 15 hours | - | - |
 | Basic model implementation with dummy data | ~ 20 hours | - | - |
