@@ -1,4 +1,5 @@
 
+
 ## Time spent by each team member
 
 #### Andrea Fioraldi
@@ -25,6 +26,7 @@
 | Main API | ~ 25 hours | - | - |
 | API documentation | ~ 3 hours| - | - |
 | Authentication logic | ~ 15 hours| - | - |
+| Docker configuration| - | 3 hours| - |
 
 #### Andrea Tulimiero
 
