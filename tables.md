@@ -34,8 +34,9 @@
 | -- | -- | -- | -- |
 | Frontend logic and main pages | ~ 60 hours | - | - |
 | Frontend-Backend interfacing | ~ 50 hours | - | - |
-| Main API | ~ 40 hours | - | - |
+| Main API | ~ 40 hours | ~2 hour | - |
 | DB creation | ~ 20 hours | - | - |
+| Docker configuration | - | ~ 1 hour | - |
 
 #### Daniele Cappuccio
 
