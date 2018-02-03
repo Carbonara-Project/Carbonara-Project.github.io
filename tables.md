@@ -34,7 +34,7 @@
 | -- | -- | -- | -- |
 | Frontend logic and main pages | ~ 60 hours | ~ 1 hours | - |
 | Frontend-Backend interfacing | ~ 50 hours | ~ 1 hours | - |
-| Main API | ~ 40 hours | ~ 4 hour | - |
+| Main API | ~ 40 hours | ~ 6 hour | - |
 | DB creation | ~ 20 hours | ~ 2 hours | - |
 | Docker configuration | - | ~ 1 hour | - |
 
