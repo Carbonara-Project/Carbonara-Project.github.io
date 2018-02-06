@@ -32,7 +32,7 @@
 
 | Role | Milestone 1 | Milestone 2 | Final Milestone |
 | -- | -- | -- | -- |
-| Frontend logic and pages | ~ 60 hours | ~ 7 hours | - |
+| Frontend logic and main pages | ~ 60 hours | ~ 7 hours | - |
 | Frontend-Backend interfacing | ~ 50 hours | ~ 3 hours | - |
 | Main API | ~ 40 hours | ~ 13 hour | - |
 | DB creation | ~ 20 hours | ~ 2 hours | - |
