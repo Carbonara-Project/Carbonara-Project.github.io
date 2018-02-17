@@ -32,12 +32,12 @@
 
 | Role | Milestone 1 | Milestone 2 | Final Milestone |
 | -- | -- | -- | -- |
-| Frontend logic and main pages | ~ 60 hours | ~ 7 hours | - |
-| Frontend-Backend interfacing | ~ 50 hours | ~ 3 hours | - |
-| Main API | ~ 40 hours | ~ 15 hour | - |
-| DB creation | ~ 20 hours | ~ 3 hours | - |
-| Docker configuration | - | ~ 1 hour | - |
-| Users API | ~ 10 hours | ~ 10 hours | - |
+| Frontend logic and main pages | ~ 60 hours | ~ 15 hours | - |
+| Frontend-Backend interfacing | ~ 50 hours | ~ 5 hours | - |
+| Main API | ~ 40 hours | ~ 20 hour | - |
+| DB creation | ~ 20 hours | ~ 4 hours | - |
+| Docker configuration | - | ~ 2 hour | - |
+| Users API | ~ 10 hours | ~ 15 hours | - |
 
 #### Daniele Cappuccio
 
