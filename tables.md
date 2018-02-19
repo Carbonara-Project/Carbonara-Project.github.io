@@ -43,10 +43,11 @@
 
 | Role | Milestone 1 | Milestone 2 | Final Milestone |
 | -- | -- | -- | -- |
-| Frontend logic and main pages | ~ 60 hours | - | - |
+| Frontend logic and main pages | ~ 60 hours | ~ 5 hours | - |
 | Responsive and mobile-friendly design | ~ 15 hours | - | - |
 | Landing page design | ~ 15 hours | - | - |
 | Low overhead data format | ~ 3 hours | - | - |
+| Docker configuration | - | ~ 10 hours | - |
 
 #### Daniele Paliotta
 
