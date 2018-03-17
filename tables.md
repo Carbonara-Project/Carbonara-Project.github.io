@@ -32,12 +32,13 @@
 
 | Role | Milestone 1 | Milestone 2 | Final Milestone |
 | -- | -- | -- | -- |
-| Frontend logic and main pages | ~ 60 hours | ~ 22 hours | - |
-| Frontend-Backend interfacing | ~ 50 hours | ~ 8 hours | - |
-| Main API | ~ 40 hours | ~ 23 hour | - |
+| Frontend logic and main pages | ~ 60 hours | ~ 22 hours | ~ 5 hours |
+| Frontend-Backend interfacing | ~ 50 hours | ~ 8 hours | ~ 2 hours |
+| Main API | ~ 40 hours | ~ 23 hour | ~ 5 hours |
 | DB creation | ~ 20 hours | ~ 4 hours | - |
 | Docker configuration | - | ~ 2 hour | - |
 | Users API | ~ 10 hours | ~ 17 hours | - |
+| Google Cloud Platform Setup| - | - | ~ 10 hours |
 
 #### Daniele Cappuccio
 
