@@ -39,7 +39,7 @@
 | DB creation | ~ 20 hours | ~ 4 hours | - |
 | Docker configuration | - | ~ 2 hour | - |
 | Users API | ~ 10 hours | ~ 17 hours | - |
-| Google Cloud Platform Setup| - | - | ~ 15 hours |
+| Google Cloud Platform Setup| - | - | ~ 18 hours |
 
 #### Daniele Cappuccio
 
