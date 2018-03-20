@@ -6,9 +6,9 @@
 
 | Role | Milestone 1 | Milestone 2 | Final Milestone |
 | -- | -- | -- | -- |
-| Guanciale (matching system) | ~ 100 hours | ~ 6 hours | - |
-| Backend (matching system) |  ~ 120 hours | ~ 25 hours | - |
-| Radare2 plugin |  ~ 10 hours | - | - |
+| Guanciale (matching system) | ~ 100 hours | ~ 6 hours | ~20 hours |
+| Backend (matching system) |  ~ 120 hours | ~ 25 hours | ~10 hours |
+| Radare2 plugin |  ~ 10 hours | - | ~ 10 hours |
 
 #### Luigi Paolo Pileggi
 
