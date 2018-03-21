@@ -34,7 +34,10 @@
     
     <script>
     $(document).ready(function(){
-        $(".button-collapse").sideNav({ closeOnClick: true });
+        $(".button-collapse").sideNav({
+            closeOnClick: true,
+            menuWidth: 200
+        });
         $(".collapsible").collapsible();
     })
     </script>
@@ -65,12 +68,12 @@
         <li><a href="https://carbonaraproject.com"><b>Login</b></a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a href="#intro">What</a></li>
-        <li><a href="#team'">Team</a></li>
-        <li><a href="#contact'">Contact</a></li>
-        <li><a href="https://github.com/Carbonara-Project">GitHub</a></li>
-        <li><a href="Carbonaraproject_paper.pdf">Whitepaper</a></li>
-        <li><a href="https://carbonaraproject.com"><b>Login</b></a></li>
+        <li><a class="navbar-close" href="https://carbonara-project.github.io/#intro">What</a></li>
+        <li><a class="navbar-close" href="https://carbonara-project.github.io/#team'">Team</a></li>
+        <li><a class="navbar-close" href="https://carbonara-project.github.io/#contact'">Contact</a></li>
+        <li><a class="navbar-close" href="https://github.com/Carbonara-Project">GitHub</a></li>
+        <li><a class="navbar-close" href="Carbonaraproject_paper.pdf">Whitepaper</a></li>
+        <li><a class="navbar-close" href="https://carbonaraproject.com"><b>Login</b></a></li>
       </ul>
     </div>
   </nav>
