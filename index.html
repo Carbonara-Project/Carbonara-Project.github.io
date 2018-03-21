@@ -37,8 +37,9 @@
         $(".button-collapse").sideNav({
             closeOnClick: true,
             menuWidth: 200,
+            draggable:true,
             onClose: function(el) {
-                window.location.reload();
+                window.location.reload(false);
             }
         });
         $(".collapsible").collapsible();
