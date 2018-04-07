@@ -33,11 +33,11 @@
 
 | Role | Milestone 1 | Milestone 2 | Final Milestone | Final Submission |
 | -- | -- | -- | -- | -- |
-| Frontend logic and main pages | ~ 60 hours | ~ 22 hours | ~ 10 hours | ~ 3 hours |
-| Frontend-Backend interfacing | ~ 50 hours | ~ 8 hours | ~ 2 hours | ~ 3 hours |
-| Main API | ~ 40 hours | ~ 23 hours | ~ 5 hours | ~ 2 hours |
-| Users API | ~ 10 hours | ~ 17 hours | - | ~ 3 hours |
-| DB creation | ~ 20 hours | ~ 4 hours | - | ~ 2 hours |
+| Frontend logic and main pages | ~ 60 hours | ~ 22 hours | ~ 10 hours | ~ 10 hours |
+| Frontend-Backend interfacing | ~ 50 hours | ~ 8 hours | ~ 2 hours | ~ 10 hours |
+| Main API | ~ 40 hours | ~ 23 hours | ~ 5 hours | ~ 4 hours |
+| Users API | ~ 10 hours | ~ 17 hours | - | ~ 4 hours |
+| DB creation | ~ 20 hours | ~ 4 hours | - | ~ 3 hours |
 | Docker configuration | - | ~ 2 hour | - | - |
 | Google Cloud Platform Setup | - | - | ~ 18 hours | - |
 
