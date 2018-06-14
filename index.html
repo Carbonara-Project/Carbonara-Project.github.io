@@ -1,441 +1,314 @@
 <!DOCTYPE html>
-
-<!-- Author: The mother of Daniele Cappuccio -->
-
 <html>
-
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-    <meta name="theme-color" content="#006064">
-    <title>Carbonara Project</title>
+  <title>Carbonara Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+  <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
 
-    <!-- CSS  -->
-    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
-    <link href="min/custom-min.css" type="text/css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
-    
-    <script
-			  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-			  crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-    <style>
-        a {
-            font-weight: normal;
-            text-decoration: none;
-        }
-        .sgurgugnau {
-            margin-left: 20px;
-            margin-right: 20px;
-        }
-    </style>
-    
-    <script>
-    $(document).ready(function(){
-        $(".button-collapse").sideNav({
-            closeOnClick: true,
-            menuWidth: 200,
-            draggable:true,
-            onClose: function(el) {
-                window.location.reload(false);
-            }
-        });
-        $(".collapsible").collapsible();
-    })
-    </script>
-
+  <link href="app.css" rel="stylesheet">
 </head>
+<body>
+ <div id="app">
+   <v-app light>
+    <v-toolbar class="white">
+      <v-toolbar-title v-text="title"></v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-toolbar-items class="hidden-sm-and-down">
+        <v-btn href="https://github.com/Carbonara-Project" flat>
+          GITHUB
+        </v-btn>
+      </v-toolbar-items>
+    </v-toolbar>
+    <v-content>
+      <section>
+        <v-parallax src="https://images.unsplash.com/photo-1477244075012-5cc28286e465?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=76ae2034864198c0b4daf6117ba25e72&auto=format&fit=crop&w=668&q=80" height="600">
+          <v-layout
+            column
+            align-center
+            justify-center
+            class="white--text"
+          >
+            <h1 name="motto" id="motto" class="white--text mb-2 display-3 text-xs-center">The front window of malware research.</h1>
+            <h3 class="subheading mb-3 text-xs-center">We are creating an environment for security researchers to thrive.</h3>
+            <v-btn
+              class="mt-5 primary-btn"
+              dark
+              large
+              href="https://carbonaraproject.com/"
+            >
+              Get Started
+            </v-btn>
+            <v-btn
+              class="mt-5 primary-btn whitepaper-btn"
+              dark
+              large
+              href="assets/Carbonaraproject_paper.pdf"
+            >
+              Whitepaper
+            </v-btn>
+          </v-layout>
+        </v-parallax>
+      </section>
 
-<body id="top" class="scrollspy">
-
-    <!-- Pre Loader -->
-    <div id="loader-wrapper">
-        <div id="loader"></div>
-
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-
-    </div>
-    
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper cyan darken-4">
-          <a href="#!" class="brand-logo sgurgugnau">Carbonara</a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons" style="margin-left: 30px">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="https://github.com/Carbonara-Project">GitHub</a></li>
-            <li><a href="Carbonaraproject_paper.pdf">Whitepaper</a></li>
-            <li><a href="https://github.com/Carbonara-Project/Carbonara-CLI/blob/master/README.md">CLI</a></li>
-            <li><a href="https://carbonaraproject.com"><b>Login</b></a></li>
-          </ul>
-          <ul class="side-nav" id="mobile-demo">
-            <li><a class="navbar-close" href="https://github.com/Carbonara-Project">GitHub</a></li>
-            <li><a class="navbar-close" href="Carbonaraproject_paper.pdf">Whitepaper</a></li>
-            <li><a href="https://github.com/Carbonara-Project/Carbonara-CLI/blob/master/README.md">CLI</a></li>
-            <li><a class="navbar-close" href="https://carbonaraproject.com"><b>Login</b></a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-
-<!--
-    <div class="navbar-fixed">
-        <nav id="nav_f" class="cyan darken-4" role="navigation">
-            <div class="container">
-                <div class="nav-wrapper">
-                    <ul class="left hide-on-med-and-down">
-                        <li>
-                            <a href="index.html" id="logo-container" class="brand-logo">Carbonara Project</a>
-                        </li>
-                    </ul>
-                    <ul class="right hide-on-med-and-down">
-                        <li>
-                            <a href="#intro">What</a>
-                        </li>
-                        <li>
-                            <a href="#team">Team</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Carbonara-Project">
-                                GitHub
-                            </a>
-                        </li>
-			<li>
-			    <a href="https://carbonaraproject.com">
-				Login
-			    </a>
-			</li>
-			<li>
-			    <a href="Carbonaraproject_paper.pdf">
-				Whitepaper
-			    </a>
-			</li>
-                    </ul>
-                    <ul id="nav-mobile" class="side-nav">
-                        <li>
-                            <a class="waves-effect" href="#intro">
-                                <h3 class="center text_h3">What</h3>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="waves-effect" href="#team">
-                                <h3 class="center text_h3">Team</h3>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="waves-effect" href="#contact">
-                                <h3 class="center text_h3">Contact</h3>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="waves-effect" href="https://github.com/Carbonara-Project">
-                                <h3 class="center text_h3">
-                                    GitHub
-                                </h3>
-                            </a>
-                        </li>
-                    </ul>
-                    <a href="#" data-activates="nav-mobile" class="button-collapse">
-                        <i class="mdi-navigation-menu" style="margin-left:30px"></i>
-                        <a href="index.html" id="logo-container" class="brand-logo">Carbonara</a>
-                    </a>
-                </div>
+      <section>
+        <v-layout
+          column
+          wrap
+          class="my-5"
+          align-center
+        >
+          <v-flex xs12 sm4 class="my-3">
+            <div class="text-xs-center">
+              <h2 class="headline primary-color">What is Carbonara?</h2>
+              <span class="subheading">
+                Carbonara is a web platform designed for reverse engineers and malware analysts to improve their work. 
+              </span>
             </div>
-        </nav>
-    </div>
+          </v-flex>
+          <v-flex xs12>
+            <v-container grid-list-xl>
+              <v-layout row wrap align-center>
+                <v-flex xs12 md4>
+                  <v-card class="elevation-0 transparent">
+                    <v-card-text class="text-xs-center">
+                      <v-icon class="main-icon text--lighten-2 primary-color">desktop_windows</v-icon>
+                    </v-card-text>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="headline text-xs-center">Retrieve info about 
+                          procedures</div>
+                    </v-card-title>
+                    <v-card-text>
+                        Upload your .idb or binary file and retrieve useful comments
+                        and tips on every single procedure. Oh, and don't forget to 
+                        include yours when uploading.
+                    </v-card-text>
+                  </v-card>
+                </v-flex>
+                <v-flex xs12 md4>
+                  <v-card class="elevation-0 transparent">
+                    <v-card-text class="text-xs-center">
+                      <v-icon class="main-icon text--lighten-2 primary-color">flash_on</v-icon>
+                    </v-card-text>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="headline">Speed up your 
+                          analysis</div>
+                    </v-card-title>
+                    <v-card-text>
+                        Does your executable file contain functions from other binaries? Well, now through Carbonara 
+                        you can untangle the puzzle and easily recognize what every procedure does. 
+                    </v-card-text>
+                  </v-card>
+                </v-flex>
+                <v-flex xs12 md4>
+                  <v-card class="elevation-0 transparent">
+                    <v-card-text class="text-xs-center">
+                      <v-icon class="main-icon primary-color text--lighten-2">people</v-icon>
+                    </v-card-text>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="headline text-xs-center">Connect with other 
+                          reverse engineers</div>
+                    </v-card-title>
+                    <v-card-text>
+                        If you need some help during your reversing process, you can connect 
+                        with colleagues all around the world and instantly share or inquire about information.
+                    </v-card-text>
+                  </v-card>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-flex>
+        </v-layout>
+      </section>
 
--->
+      <section>
+        <v-parallax src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f3cb0473315ed1eca1b47d280bb2ab1&auto=format&fit=crop&w=1500&q=80" height="380">
+          <v-layout column align-center justify-center>
+            <div class="headline white--text mb-3 text-xs-center">Join the community.</div>
+            <em>Join our community of security researchers.</em>
+            <v-btn
+              class="mt-5 primary-btn"
+              dark
+              large
+              href="https://carbonaraproject.com/"
+            >
+              Get Started
+            </v-btn>
+          </v-layout>
+        </v-parallax>
+      </section>
 
-    <!--Parallax-->
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="img/parallax-banner.jpg" style="width: 100%">
-        </div>
-    </div>
-
-    <!--Hero-->
-    <!--<div id="index-banner" class="section no-pad-bot" >
-    <div class="container">
-
-    </div>
-</div>-->
-
-    <!--Intro and service-->
-    <div id="intro" class="section scrollspy">
-        <div class="container">
-            <div class="row">
-                <div class="col s12">
-                    <h2 class="center header text_h2">
-                        <span class="span_h2">What is Carbonara?
-                        </span>
-                        <br> Carbonara is a web platform designed for reverse engineers and malware analysts to improve their
-                        work.
-                        <br>
-                        <span class="span_h2"></span>
-                    </h2>
-                </div>
-
-                <div class="col s12 m4 l4">
-                    <div class="center promo promo-example">
-                        <i class="mdi-hardware-desktop-windows"></i>
-                        <h5 class="promo-caption">Retrieve info about
-                            <br>procedures</h5>
-                        <p class="light center">Upload your .idb or binary file and retrieve useful comments and tips on every single procedure.
-                            Oh, and don't forget to include yours when uploading.</p>
-                    </div>
-                </div>
-                <div class="col s12 m4 l4">
-                    <div class="center promo promo-example">
-                        <i class="mdi-image-flash-on"></i>
-                        <h5 class="promo-caption">Speed up your
-                            <br>analysis</h5>
-                        <p class="light center">Does your executable file contain functions from other binaries? Well, now through Carbonara you
-                            can untangle the puzzle and easily recognize what every procedure does.</p>
-                    </div>
-                </div>
-                <div class="col s12 m4 l4">
-                    <div class="center promo promo-example">
-                        <i class="mdi-social-group"></i>
-                        <h5 class="promo-caption">Connect with other
-                            <br>reverse engineers</h5>
-                        <p class="light center">If you need some help during your reversing process, you can connect with colleagues all around the
-                            world and instantly share or inquire about information.</p>
-                    </div>
-                </div>
+      <section>
+          <div class="text-xs-center">
+              <h2 class="headline primary-color team-header">Our Team</h2>
             </div>
-        </div>
-    </div>
 
-    <!--Parallax-->
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="img/parallax-middle.jpg">
-        </div>
-    </div>
-
-    <!--Team-->
-    <div class="section scrollspy" id="team">
-        <div class="container">
-            <h2 class="header span_h2"> Our Team </h2>
-            <div class="row">
-                <div class="col s12 m4">
-                    <div class="card card-avatar">
-                        <div class="waves-effect waves-block waves-light">
-                            <img class="activator" src="img/avatar-cappuccio.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Cappuccio
-                                <br>Daniele
-                                <br/>
-                                <small>
-                                    <em>
-                                        <a class="cyan-text text-darken-1" href="https://github.com/daniele-cappuccio">"The bruteforcer"</a>
-                                    </em>
-                                </small>
-                            </span>
-                            <p>
-                                <a class="cyan-text text-darken-4" href="https://twitter.com/DaniCap_97">
-                                    <i class="fa fa-twitter-square"></i>
-                                </a>
-                                <a class="cyan-text text-darken-4" href="https://github.com/daniele-cappuccio">
-                                    <i class="fa fa-github-square"></i>
-                                </a>
-                                <a class="cyan-text text-darken-4" href="https://www.linkedin.com/in/daniele-cappuccio">
-                                    <i class="fa fa-linkedin-square"></i>
-                                </a>
-                            </p>
-                        </div>
+          <v-layout style="margin-top:60px;">
+              <v-flex xs12 sm6 md2 offset-md2>
+                <v-card>
+                  <v-card-media src="img/avatar-paliotta.jpg" height="350px">
+                  </v-card-media>
+                  <v-card-title primary-title>
+                    <div>
+                      <h3 class="headline mb-0">Daniele Paliotta</h3>
                     </div>
-                </div>
-                <div class="col s12 m4">
-                    <div class="card card-avatar">
-                        <div class="waves-effect waves-block waves-light">
-                            <img class="activator" src="img/avatar-ferrera.jpg">
+                  </v-card-title>
+                  <v-card-actions>
+                    <v-btn href="http://github.com/dpstart" flat class="primary-color">Github</v-btn>
+                    <v-btn href="https://www.linkedin.com/in/daniele-paliotta-455139a2/" flat class="primary-color">Linkedin</v-btn>
+                  </v-card-actions>
+                </v-card>
+              </v-flex>
+              <v-flex xs12 sm6 md2 offset-md1>
+                  <v-card>
+                    <v-card-media src="img/avatar-tulimiero.jpeg" height="350px">
+                    </v-card-media>
+                    <v-card-title primary-title>
+                      <div>
+                        <h3 class="headline mb-0">Andrea Tulimiero</h3>
+                      </div>
+                    </v-card-title>
+                    <v-card-actions>
+                      <v-btn href="https://github.com/andreatulimiero" flat class="primary-color">Github</v-btn>
+                      <v-btn href="https://it.linkedin.com/in/andrea-tulimiero-78448482" flat class="primary-color">Linkedin</v-btn>
+                    </v-card-actions>
+                  </v-card>
+                </v-flex>
+                <v-flex xs12 sm6 md2 offset-md1>
+                    <v-card>
+                      <v-card-media src="img/avatar-fioraldi.jpg" height="350px">
+                      </v-card-media>
+                      <v-card-title primary-title>
+                        <div>
+                          <h3 class="headline mb-0">Andrea Fioraldi</h3>
                         </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Ferrera
-                                <br>Luca
-                                <br/>
-                                <small>
-                                    <em>
-                                        <a class="cyan-text text-darken-1" href="https://github.com/Luca-Ferrera">"The Luco"</a>
-                                    </em>
-                                </small>
-                            </span>
-                            <p>
-                                <a class="cyan-text text-darken-4" href="#">
-                                    <i class="fa fa-twitter-square"></i>
-                                </a>
-                                <a class="cyan-text text-darken-4" href="https://github.com/Luca-Ferrera">
-                                    <i class="fa fa-github-square"></i>
-                                </a>
-                                <a class="cyan-text text-darken-4" href="https://it.linkedin.com/in/luca-ferrera-6a0b86138">
-                                    <i class="fa fa-linkedin-square"></i>
-                                </a>
-                            </p>
+                      </v-card-title>
+                      <v-card-actions>
+                        <v-btn href="https://github.com/andreafioraldi" flat class="primary-color">Github</v-btn>
+                        <v-btn href="https://it.linkedin.com/in/andrea-fioraldi" flat class="primary-color">Linkedin</v-btn>
+                      </v-card-actions>
+                    </v-card>
+                  </v-flex>
+            </v-layout>
+            <v-layout style="margin-top:60px;">
+                <v-flex xs12 sm6 md2 offset-md2>
+                    <v-card>
+                      <v-card-media src="img/avatar-pileggi.jpg" height="350px">
+                      </v-card-media>
+                      <v-card-title primary-title>
+                        <div>
+                          <h3 class="headline mb-0">Luigi Paolo Pileggi</h3>
                         </div>
-                    </div>
-                </div>
-                <div class="col s12 m4">
-                    <div class="card card-avatar">
-                        <div class="waves-effect waves-block waves-light">
-                            <img class="activator" src="img/avatar-fioraldi.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">
-                                Fioraldi
-                                <br>Andrea
-                                <br/>
-                                <small>
-                                    <em>
-                                        <a class="cyan-text text-darken-1" href="https://github.com/andreafioraldi">"Python man"</a>
-                                    </em>
-                                </small>
-                            </span>
-                            <p>
-                                <a class="cyan-text text-darken-4" href="https://twitter.com/andreafioraldi">
-                                    <i class="fa fa-twitter-square"></i>
-                                </a>
-                                <a class="cyan-text text-darken-4" href="https://github.com/andreafioraldi">
-                                    <i class="fa fa-github-square"></i>
-                                </a>
-                                <a class="cyan-text text-darken-4" href="https://it.linkedin.com/in/andrea-fioraldi">
-                                    <i class="fa fa-linkedin-square"></i>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!-- row -->
-            <div class="row" align="center">
-                <div class="col s12 m4">
-                    <div class="card card-avatar">
-                        <div class="waves-effect waves-block waves-light">
-                            <img class="activator" src="img/avatar-paliotta.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Paliotta
-                                <br>Daniele
-                                <br/>
-                                <small>
-                                    <em>
-                                        <a class="cyan-text text-darken-1" href="https://github.com/dpstart">"The librarian"</a>
-                                    </em>
-                                </small>
-                            </span>
-                            <p>
-                                <a class="cyan-text text-darken-4" href="https://twitter.com/DanielePaliotta">
-                                    <i class="fa fa-twitter-square"></i>
-                                </a>
-                                <a class="cyan-text text-darken-4" href="https://github.com/dpstart">
-                                    <i class="fa fa-github-square"></i>
-                                </a>
-                                <a class="cyan-text text-darken-4" href="https://www.linkedin.com/in/daniele-paliotta-455139a2/">
-                                    <i class="fa fa-linkedin-square"></i>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m4">
-                   <div class="card card-avatar">
-                        <div class="waves-effect waves-block waves-light">
-                            <img class="activator" src="img/avatar-pileggi.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Pileggi
-                                <br>Paolo Luigi
-                                <br/>
-                                <small>
-                                    <em>
-                                        <a class="cyan-text text-darken-1" href="https://github.com/rop2bash">"The terrorist"</a>
-                                    </em>
-                                </small>
-                            </span>
-                            <p>
-                                <a class="cyan-text text-darken-4" href="https://twitter.com/rop2bash">
-                                    <i class="fa fa-twitter-square"></i>
-                                </a>
-                                <a class="cyan-text text-darken-4" href="https://github.com/rop2bash">
-                                    <i class="fa fa-github-square"></i>
-                                </a>
-                                <a class="cyan-text text-darken-4" href="https://it.linkedin.com/in/luigi-paolo-pileggi-53ab9913a">
-                                    <i class="fa fa-linkedin-square"></i>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m4">
-                    <div class="card card-avatar">
-                        <div class="waves-effect waves-block waves-light">
-                            <img class="activator" src="img/avatar-tulimiero.jpeg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Tulimiero
-                                <br>Andrea
-                                <br/>
-                                <small>
-                                    <em>
-                                        <a class="cyan-text text-darken-1" href="https://github.com/andreatulimiero">"The Tullio"</a>
-                                    </em>
-                                </small>
-                            </span>
-                            <p>
-                                <a class="cyan-text text-darken-4" href="https://twitter.com/AndreaTulimiero">
-                                    <i class="fa fa-twitter-square"></i>
-                                </a>
-                                <a class="cyan-text text-darken-4" href="https://github.com/andreatulimiero">
-                                    <i class="fa fa-github-square"></i>
-                                </a>
-                                <a class="cyan-text text-darken-4" href="https://it.linkedin.com/in/andrea-tulimiero-78448482">
-                                    <i class="fa fa-linkedin-square"></i>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- row -->
-        </div>
-    </div>
-
-    <!--Footer-->
-    <footer id="contact" class="page-footer cyan darken-4 scrollspy">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <form class="col s12">
-                        <div class="row">
-                            <div class="input-field col s8" style="pointer-events:none">
-                                <!-- workaround to make div 'not clickable' -->
-                                <i class="mdi-communication-email prefix white-text"></i>
-                                <input id="icon_email" name="email" type="email" class="validate white-text" readonly>
-                                <label for="icon_email" class="white-text">carbonaraproject@gmail.com</label>
+                      </v-card-title>
+                      <v-card-actions>
+                        <v-btn href="https://github.com/rop2bash" flat class="primary-color">Github</v-btn>
+                        <v-btn href="https://it.linkedin.com/in/luigi-paolo-pileggi-53ab9913a" flat class="primary-color">Linkedin</v-btn>
+                      </v-card-actions>
+                    </v-card>
+                  </v-flex>
+                  <v-flex xs12 sm6 md2 offset-md1>
+                      <v-card>
+                        <v-card-media src="img/avatar-ferrera.jpg" height="350px">
+                        </v-card-media>
+                        <v-card-title primary-title>
+                          <div>
+                            <h3 class="headline mb-0">Luca Ferrera</h3>
+                          </div>
+                        </v-card-title>
+                        <v-card-actions>
+                          <v-btn href="https://github.com/Luca-Ferrera" flat class="primary-color">Github</v-btn>
+                          <v-btn href="https://it.linkedin.com/in/luca-ferrera-6a0b86138" flat class="primary-color">Linkedin</v-btn>
+                        </v-card-actions>
+                      </v-card>
+                    </v-flex>
+                    <v-flex xs12 sm6 md2 offset-md1>
+                        <v-card>
+                          <v-card-media src="img/avatar-cappuccio.jpg" height="350px">
+                          </v-card-media>
+                          <v-card-title primary-title>
+                            <div>
+                              <h3 class="headline mb-0">Daniele Cappuccio</h3>
                             </div>
-                        </div>
-                    </form>
-                </div>
+                          </v-card-title>
+                          <v-card-actions>
+                            <v-btn   href="https://github.com/daniele-cappuccio" flat class="primary-color">Github</v-btn>
+                            <v-btn href="https://www.linkedin.com/in/daniele-cappuccio" flat class="primary-color">Linkedin</v-btn>
+                          </v-card-actions>
+                        </v-card>
+                      </v-flex>
+              </v-layout>
+      </section>
+
+      <section>
+        <v-container grid-list-xl>
+          <v-layout row wrap justify-center class="my-5">
+            <v-flex xs12 sm4>
+              <v-card class="elevation-0 transparent">
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="headline">Company info</div>
+                </v-card-title>
+                <v-card-text>
+                    Carbonara is a malware analysis/reverse engineering platform 
+                    whose main focus is to create a community of contributors.
+                </v-card-text>
+              </v-card>
+            </v-flex>
+            <v-flex xs12 sm4 offset-sm1>
+              <v-card class="elevation-0 transparent">
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="headline">Contact us</div>
+                </v-card-title>
+                <v-list class="transparent">
+                  <v-list-tile>
+                    <v-list-tile-action>
+                      <v-icon class="text--lighten-2 primary-color">place</v-icon>
+                    </v-list-tile-action>
+                    <v-list-tile-content>
+                      <v-list-tile-title>Rome, Italy</v-list-tile-title>
+                    </v-list-tile-content>
+                  </v-list-tile>
+                  <v-list-tile>
+                    <v-list-tile-action>
+                      <v-icon class="text--lighten-2 primary-color">email</v-icon>
+                    </v-list-tile-action>
+                    <v-list-tile-content>
+                      <v-list-tile-title>projectcarbonara@gmail.com</v-list-tile-title>
+                    </v-list-tile-content>
+                  </v-list-tile>
+                </v-list>
+              </v-card>
+            </v-flex>
+          </v-layout>
+        </v-container>
+      </section>
+
+      <v-footer class="primary-btn">
+        <v-layout row wrap align-center>
+          <v-flex xs12>
+            <div class="white--text ml-3">
+                © 2018 Carbonara Project
             </div>
-        </div>
-        <div class="footer-copyright cyan darken-4">
-            <div class="container">
-            </div>
-        </div>
-    </footer>
-
-
-    <!--  Scripts-->
-    <script src="min/plugin-min.js"></script>
-    <script src="min/custom-min.js"></script>
-
+          </v-flex>
+        </v-layout>
+      </v-footer>
+    </v-content>
+  </v-app>
+ </div>
+ <script src="https://unpkg.com/vue/dist/vue.js"></script>
+ <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
+ <script>
+   new Vue({
+    el: '#app',
+    data () {
+      return {
+        title: 'Carbonara Project'
+      }
+    },
+    methods: {
+    
+    }
+  })
+ </script>
 </body>
-
 </html>
